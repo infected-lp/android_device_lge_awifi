@@ -1,4 +1,5 @@
 # Sensors
+allow system_server apk_data_file:sock_file { write getattr };
 allow system_server sensors_data_file:dir search;
 
 # Time services
